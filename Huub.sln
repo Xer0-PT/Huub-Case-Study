@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huub.API", "Huub.API\Huub.API.csproj", "{441B906E-1056-460E-8306-2419B68D8480}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Huub.Models", "Huub.Models\Huub.Models.csproj", "{2E8C42A5-0438-4AC7-8B44-1182466C8073}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{134A90AC-4E60-4870-ACAD-D685271D8341}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441B906E-1056-460E-8306-2419B68D8480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441B906E-1056-460E-8306-2419B68D8480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441B906E-1056-460E-8306-2419B68D8480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441B906E-1056-460E-8306-2419B68D8480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8C42A5-0438-4AC7-8B44-1182466C8073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8C42A5-0438-4AC7-8B44-1182466C8073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8C42A5-0438-4AC7-8B44-1182466C8073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8C42A5-0438-4AC7-8B44-1182466C8073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134A90AC-4E60-4870-ACAD-D685271D8341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134A90AC-4E60-4870-ACAD-D685271D8341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134A90AC-4E60-4870-ACAD-D685271D8341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134A90AC-4E60-4870-ACAD-D685271D8341}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4703B4C6-C7D3-43C7-A169-8CE05629D523}
+	EndGlobalSection
+EndGlobal

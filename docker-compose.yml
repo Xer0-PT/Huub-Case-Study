@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  huub.api:
+    image: ${DOCKER_REGISTRY-}huubapi
+    build:
+      context: .
+      dockerfile: Huub.API/Dockerfile
