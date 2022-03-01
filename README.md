@@ -49,8 +49,15 @@ docker-compose up huub.api
 * You can now test my API
 
 ### Or you can run it via Visual Studio
+
+<br>
+
+# Updates
+* 01/03/2022 - Added in memory cache feature. This way the amount of requests to external server are reduced and the response time is increased.
+
 <br><br>
 ## Author
+<img src="https://avatars.githubusercontent.com/u/38245877?s=120&v=4">
 
 **Joel Martins**
 
