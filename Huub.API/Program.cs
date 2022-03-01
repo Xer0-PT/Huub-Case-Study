@@ -10,6 +10,7 @@ builder.Services.AddTransient<IService, Service>();
 builder.Services.AddTransient<IHttpService, HttpService>();
 builder.Services.AddControllers();
 builder.Services.AddHttpClient();
+builder.Services.AddMemoryCache();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
